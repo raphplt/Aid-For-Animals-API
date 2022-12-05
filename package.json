@@ -1,0 +1,41 @@
+{
+  "name": "aid-for-animals",
+  "version": "1.0.0",
+  "description": "Aid For Animals is the first boutique of goodies whose revenues are entirely paid to an association.",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc --build --clean && tsc --build",
+    "lint": "eslint src --ext .ts",
+    "eslint": "npm run lint -- --fix",
+    "migrate": "ts-node src/migrate.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@rendu-git.etna-alternance.net:module-9179/activity-50057/group-989053"
+  },
+  "author": "Raphaël and Alexis",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "build": "^0.1.4",
+    "cookie": "^0.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "require": "^2.4.20",
+    "sequelize": "^6.25.2",
+    "sequelize-cli": "^6.5.1",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/cookie": "^0.5.1",
+    "@types/express": "^4.17.14"
+  }
+}
